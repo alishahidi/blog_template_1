@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;400;500;700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Sora:wght@300;500;700&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+
+.bg-img{
+  background-image: url("../images/bg-home.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-img-1 {
+  background-image: url("../images/bg-home-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-img-2 {
+  background-image: url("../images/bg-home-2.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-img-3 {
+  background-image: url("../images/bg-home-3.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-img-4 {
+  background-image: url("../images/bg-home-4.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-img-5 {
+  background-image: url("../images/bg-home-5.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+* {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  box-sizing: border-box;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+:root {
+  --font-sora: "Sora", sans-serif;
+  --font-old: "Old Standard TT", serif;
+  --font-hahmlet: "Hahmlet", serif;
+}
+
+.scroll-hide {
+  overflow: auto;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.f-sofa {
+  font-family: var(--font-sora);
+}
+
+.f-hahmlet {
+  font-family: var(--font-hahmlet);
+}
+
+.f-old {
+  font-family: var(--font-old);
+}
+
+.letter-fix {
+  letter-spacing: 0.54px;
+}
+
+.input-custom {
+  background-color: rgba(243, 243, 243, 0.638);
+  border-radius: 0 !important;
+  border: 1px solid #474b4f;
+  font-size: 0.94rem;
+}
+
+.input-custom:focus {
+  color: #212529;
+  background-color: rgba(243, 243, 243, 0.638);
+  border: 1px solid #474b4f;
+  outline: 0;
+  box-shadow: none;
+}
+
+.main-content {
+  background-color: rgba(251, 250, 245, 0.8);
+}
+
+header h2 {
+  font-weight: 700 !important;
+  font-size: 1.6rem;
+  font-family: var(--font-old);
+  font-style: italic;
+}
+
+header p {
+  font-family: var(--font-hahmlet);
+  color: #474b4f;
+}
+
+.menu .list .item a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu .list .item a:hover {
+  text-decoration: underline;
+}
+
+.profile-img {
+  width: 151px;
+  height: 119px;
+}
+
+.profile-img-sm {
+  width: 24px;
+  height: 24px;
+}
+
+.underline {
+  position: relative;
+  padding-bottom: 6px;
+}
+
+.underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: #474b4f;
+  top: 37px;
+}
+
+.sidebar h4 {
+  font-size: 1.2rem;
+}
+
+.sidebar .list .item a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 501;
+  letter-spacing: 1px;
+}
+
+.sidebar .list .item a:hover {
+  text-decoration: underline;
+}
+
+.sidebar .post h5 {
+  font-size: 1rem;
+}
+
+.sidebar .post p {
+  font-size: 0.8rem;
+}
+
+.sidebar .post {
+  color: #212529;
+  text-decoration: none;
+}
+
+.contact img {
+  border: 3.4px #212529 double;
+}
+
+.contact h4 {
+  font-size: 1.2rem;
+}
+
+._pagination .pagination {
+  border: 1px solid #474b4f !important;
+}
+
+._pagination .pagination .page-item .page-link{
+  color: #212529;
+  background-color: rgba(243, 243, 243, 0.638);
+}
+
+._pagination .pagination .page-item{
+  border: 1px solid #474b4f !important;
+}
+
+._pagination .pagination .active .page-link{
+  color: snow;
+  background-color: #474b4f;
+  border: 1px solid #474b4f !important;
+}
